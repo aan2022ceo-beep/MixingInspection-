@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Inter", "Inter Fallback", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-background: #f8f9fb;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0f172a;
+  --color-primary: #0f62fe;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #e2e8f0;
+  --color-secondary-foreground: #1e293b;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-accent: #f1f5f9;
+  --color-accent-foreground: #1e293b;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #0f62fe;
+
+  --color-status-open: #dc2626;
+  --color-status-open-bg: #fef2f2;
+  --color-status-pending: #d97706;
+  --color-status-pending-bg: #fffbeb;
+  --color-status-inprogress: #2563eb;
+  --color-status-inprogress-bg: #eff6ff;
+  --color-status-closed: #16a34a;
+  --color-status-closed-bg: #f0fdf4;
+
+  --color-priority-high: #dc2626;
+  --color-priority-high-bg: #fef2f2;
+  --color-priority-medium: #d97706;
+  --color-priority-medium-bg: #fffbeb;
+  --color-priority-low: #16a34a;
+  --color-priority-low-bg: #f0fdf4;
+
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
